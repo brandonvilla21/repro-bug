@@ -6,7 +6,7 @@ function MyComponent() {
     async function main() {
       const requestUrl = `/endpointA`;
       await axios.get(requestUrl).catch(console.log);
-      window.sessionStorage.getItem('searchKey');
+      window.sessionStorage.getItem('someKey');
     }
     main();
 

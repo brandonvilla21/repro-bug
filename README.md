@@ -1,3 +1,8 @@
+### Requirements to reproduce this
+This issue has been tested in the following node environments:
+- Node v14.17.3, npm v7.20.0
+- Node v12.16.0, npm v7.19.1
+
 ### Steps to repro
 
 Just install dependencies using `npm install` and then `npm run test`

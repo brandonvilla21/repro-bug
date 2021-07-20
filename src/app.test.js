@@ -18,7 +18,7 @@ describe('Test', () => {
   afterEach(() => server.resetHandlers());
   afterAll(() => server.close());
 
-  test('handles server error', () => {
+  test('sessionStorage error', () => {
     render(<MyComponent />);
   });
 });
